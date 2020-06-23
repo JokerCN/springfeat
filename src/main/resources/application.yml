@@ -1,0 +1,22 @@
+
+spring:
+  application:
+    name: spring-feat
+
+server:
+  port: 7777
+
+external:
+  config:
+    mybean:
+      name: yang
+
+acme:
+  enabled: true
+  remote-address: localhost
+  security:
+    username: yangyiwei
+    password: bool?palM:fish
+    roles:
+      - admin
+      - user
