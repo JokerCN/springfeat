@@ -20,3 +20,5 @@ acme:
     roles:
       - admin
       - user
+
+debug: true
